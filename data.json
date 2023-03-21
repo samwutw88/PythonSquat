@@ -1,0 +1,53 @@
+{
+    "emp_details": [
+        {
+            "emp_name": "dddd",
+            "email": "ssdd@dsd.fsd.com"
+        },
+        {
+            "emp_name": "ffff",
+            "email": "fffd@ggmmee.fdqw.com"
+        },
+        {
+            "emp_name": "Nikhil",
+            "email": "nikhil@geeksforgeeks.org",
+            "job_profile": "Full Time"
+        },
+        {
+            "emp_name": "Nikhil",
+            "email": "nikhil@geeksforgeeks.org",
+            "job_profile": "Full Time"
+        },
+        {
+            "emp_name": "Nikhil",
+            "email": "nikhil@geeksforgeeks.org",
+            "job_profile": "Full Time"
+        },
+        {
+            "emp_name": "Nikhil",
+            "email": "nikhil@geeksforgeeks.org",
+            "job_profile": "Full Time"
+        },
+        {
+            "price": 9903.5,
+            "price1": 123.7,
+            "empid": "12345",
+            "skey": 34,
+            "createdate": "2023-03-20 00:35:23.103088"
+        },
+        {
+            "price": 1093,
+            "price1": 853.7,
+            "empid": "12345",
+            "skey": 34,
+            "createdate": "2023-03-20 00:35:56.069305"
+        },
+        {
+            "price": 303,
+            "price1": 8793.5,
+            "empid": "12345",
+            "skey": 11,
+            "createdate": "2023-03-20 00:36:33.344080"
+        }
+    ]
+}

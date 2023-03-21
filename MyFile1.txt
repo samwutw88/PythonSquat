@@ -1,0 +1,29 @@
+{"price": 23.5}{"price": 9023.5}{'price': 9023.5, 'price1': 123.7, 'empid': '12345', 'skey': 0}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 3}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 6}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 8}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 4}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 4}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 9}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 0}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 0}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 2}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 1}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 91}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 83}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 73}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 47}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 54}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 39}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 19}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 91}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 40}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 96}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 56}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 68}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 73}{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 57}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 27}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 41}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 50}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 22}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 15}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 68}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 59}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 2}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 2}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 89}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 4}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 69}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 84}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 20}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 91, 'createdate': datetime.datetime(2023, 3, 18, 23, 18, 13, 669875)}
+{'price': 9903.5, 'price1': 123.7, 'empid': '12345', 'skey': 0, 'createdate': '2023-03-18 23:19:06.057952'}
+{"price": 9903.5, "price1": 123.7, "empid": "12345", "skey": 73, "createdate": "2023-03-18 23:21:54.810505"}
+{"price": 9903.5, "price1": 123.7, "empid": "12345", "skey": 4, "createdate": "2023-03-18 23:23:10.774457"}
+{"price": 9903.5, "price1": 123.7, "empid": "12345", "skey": 54, "createdate": "2023-03-18 23:24:01.661665"}
+{"price": 9903.5, "price1": 123.7, "empid": "12345", "skey": 60, "createdate": "2023-03-18 23:25:48.370769"}
+{"price": 9903.5, "price1": 123.7, "empid": "12345", "skey": 59, "createdate": "2023-03-18 23:26:16.084416"}
+{"price": 9903.5, "price1": 123.7, "empid": "12345", "skey": 38, "createdate": "2023-03-18 23:27:26.123738"}
+{"price": 9903.5, "price1": 123.7, "empid": "12345", "skey": 53, "createdate": "2023-03-18 23:40:36.534555"}
+{"price": 9903.5, "price1": 123.7, "empid": "12345", "skey": 83, "createdate": "2023-03-20 00:31:04.096280"}
+{"price": 9903.5, "price1": 123.7, "empid": "12345", "skey": 73, "createdate": "2023-03-20 00:32:39.971696"}
+{"price": 9903.5, "price1": 123.7, "empid": "12345", "skey": 34, "createdate": "2023-03-20 00:35:23.103088"}
+{"price": 1093, "price1": 853.7, "empid": "12345", "skey": 34, "createdate": "2023-03-20 00:35:56.069305"}
+{"price": 303, "price1": 8793.5, "empid": "12345", "skey": 11, "createdate": "2023-03-20 00:36:33.344080"}
