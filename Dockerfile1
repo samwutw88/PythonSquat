@@ -1,0 +1,16 @@
+# Stage 1: Build
+FROM python:3.9-buster AS compile-image
+
+WORKDIR /app
+
+COPY . /app
+
+RUN apt-get update
+RUN apt-get install nano
+
+# Stage 2: Runtime
+FROM python:3.13-rc-alpine AS build-image
+WORKDIR /app
+COPY . /app
+RUN pip install -r requirements.txt
+CMD python3 app.py
