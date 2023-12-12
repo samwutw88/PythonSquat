@@ -1,14 +1,26 @@
 
 pip3 freeze
 pip3 install > requirements.txt
-docker image build -t squat_flask .  --no-cache
 
- 
+--build
+ docker image build -t squat_flask .  --no-cache
+
+ docker image build -t squat_flask:v2.0.1 . --no-cache  (指定版本)
+
+ docker image build -f dockerfile1 -t squat_flask:v3.0.4 . --no-cache  (指定版本, 指定dockerfile檔案)
+
  docker build --pull . -t squat_flask:latest
 
 docker run -p 3000:5000 squat_flask
-
-
+docker run -p 3000:5000 squat_flask:v2.0.1
+docker run -p 3000:5000 squat_flask:v3.0.4 
 
 docker ps -a
 docker exec -it 99a465d03264 /bin/bash
+
+
+
+docker image  build -t sam168170/squat:v1.1.1 -f Dockerfile 
+
+
+ 
