@@ -4,10 +4,24 @@ from flask import Flask, request
 from flask_restful import Resource, Api
 import json
 import datetime
+import threading
+import os
 
 # 創建Flask app物件
 app = Flask(__name__)
 api = Api(app)
+
+# 創建鎖來避免檔案競爭
+lock = threading.Lock()
+
+# 確保初始檔案存在
+if not os.path.exists('data.json'):
+    with open('data.json', 'w') as f:
+        json.dump({"emp_details": []}, f)
+
+if not os.path.exists('MyFile1.txt'):
+    with open('MyFile1.txt', 'w') as f:
+        pass  # 創建空檔案
 
 
 @app.route("/")
@@ -47,7 +61,6 @@ class squat(Resource):
     # 建制新squat record
     def post(self):
         if request.is_json: # 判斷是不是 JSON
-           file1 = open("MyFile1.txt", "a")
            data = request.get_json()
    
            data.update({"empid": "12345"})  # 增加元素
@@ -66,14 +79,16 @@ class squat(Resource):
            print(json_data)
            print(type(json_data)) 
            
-           with open('data.json','r+') as file11: 
-                file_data = json.load(file11)
-                file_data["emp_details"].append(data) 
-                file11.seek(0)
-                json.dump(file_data, file11, indent = 4)
+           with lock:
+               with open('data.json','r+') as file11: 
+                    file_data = json.load(file11)
+                    file_data["emp_details"].append(data) 
+                    file11.seek(0)
+                    json.dump(file_data, file11, indent = 4)
+               
+               with open('MyFile1.txt', 'a') as file1:
+                   file1.write(str(json_data)+'\n')
            
-           file1.write(str(json_data)+'\n')
-           file1.close()
            dict_json = json.dumps(request.get_json()) # 從資料中獲取值
         else:
            result = 'Not JSON Data'
